@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.heading {
+    color: azure;
+    font-family: Verdana;
+    margin-top: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form-box {
+    background-color: rgba(29, 27, 38, .2);
+    width: 350px;
+    height: 470px;
+    border-radius: 10px;
+    border: 2px solid rgb(54, 53, 60);
+    font-family: Verdana;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    box-sizing: border-box;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: azure;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 100%;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(96, 95, 101, 255);
+    background-color: rgba(96, 95, 101, 255);
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+ul a {
+    text-decoration: none;
+    color: azure;
+    padding: 14px 14px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+li i {
+    color: azure;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+
+input {
+    color: azure;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background: rgba(46, 44, 55, 255);
+    border: 2px solid rgba(46, 44, 55, 255);
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Verdana;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#password {
+    width: 100%;
+}
+
+
+
+#password span {
+    position: absolute;
+    top: 287px;
+    right: 480px;
+}
+
+img {
+    width: 28px;
+    height: 20px;
+    filter: brightness(0) invert();
+}
